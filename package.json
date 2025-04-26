@@ -1,0 +1,14 @@
+{
+  "name": "dynamic-password-generator",
+  "version": "1.0.0",
+  "description": "A dynamic password generator made with Electron.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-win": "electron-packager . dynamic-password-generator --platform=win32 --arch=x64 --out=dist --overwrite"
+  },  
+  "devDependencies": {
+    "electron": "35.2.1",
+    "electron-packager": "^17.1.2"
+  }
+}

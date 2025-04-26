@@ -1,0 +1,2 @@
+dist/dynamic-password-generator-win32-x64/dynamic-password-generator.exe filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
